@@ -1,0 +1,188 @@
+
+
+body{
+    font-family: 'Mali';
+    margin: 0;
+    background-image: url("img/fundo.jpg");
+  background-attachment: fixed;
+  color: white;
+}
+img[src="img/fundo.jpg"]{
+    position: relative;
+}
+img[src="img/logo.png"]{
+  position: absolute;
+  height: 250px;
+  top: 10%;
+  left: 50%;
+  margin-left: -125px;
+}
+nav{
+    width: 80%;
+    border-bottom: 3px white solid;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Navegadorinitial{
+  font-size: 45px;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+
+ul {
+  padding-left: 0px;
+  display: flex;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    flex-grow: 1;
+    text-align: center;
+    list-style-type: none;
+
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+#Navegadorinitial ul li a:hover{
+    font-size: 50px;
+}
+nav ul li a:hover{
+    font-size: 35px;
+}
+.hide{
+  display: none;
+
+}
+#titulo{
+    position: absolute;
+    top: 40%;
+    font-size: 70px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.foto {
+  height: 300px;
+  display: block;
+  margin: 10px;
+    float: left;
+
+}
+#personagens article{
+  overflow: auto;
+}
+#personagens article p{
+  width: 50%;
+  font-size: 20px;
+  float: right;
+}
+#personagens article h1{
+  width: 50%;
+  text-align: center;
+  font-size: 25px;
+  float: right;
+  border-bottom: solid white 3px;
+}
+#personagens h1{
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+#personagens{
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+}
+#curiosidades{
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+    clear: both;
+}
+button, input{
+  background-color:#969494bd;
+  border: white solid 2px;
+  font-family: 'Mali';
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 5px;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  width: 30%;
+  position: relative;
+  left: 35%;
+  margin: 10px;
+}
+
+button:hover{
+ color: black;
+
+}
+#bixo{
+  margin-top: 40px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#bixo button{
+ display: block;
+}
+#bixo input{
+  display: block;
+}
+#bixo img{
+  position: relative;
+  width: 40%;
+  height: auto;
+  left: 30%;
+  display: inline-block;
+}
+#explicaFoto{
+  position: relative;
+  left: 10%;
+}
+#evilFoto{
+  position: sticky;
+  width: 45px;
+  height: auto;
+  top: 0;
+}
+#videos h1{
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+#videos{
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+}
+#sobre h1{
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+}
+#sobre img{
+  width: 20%;
+  height: auto;
+
+}
+figure{
+  position: relative;
+  left: 40%;
+}
